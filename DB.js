@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const mongo = 'mongodb://localhost:27017/ESHOP'
+const mongo = 'mongodb+srv://shivamgee6:shivam@cluster0.6ijguq1.mongodb.net/'
+// const mongo = 'mongodb://localhost:27017/ESHOP'
 
 const connection = async()=>{ 
     await mongoose.connect(mongo , {
